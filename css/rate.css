@@ -1,0 +1,143 @@
+main{
+    /* background-color: rgb(0, 158, 220); */
+    background-color: #1e2935cb;
+}
+
+#mainContain{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#mainContain > h1{
+    margin: 0.5em 0;
+
+    font-size: 4em;
+    font-weight: 800;
+
+    /*! Color de letra  */
+    /* background: -webkit-linear-gradient( #ffffff, rgb(188, 188, 188)); */
+    background: -webkit-linear-gradient( #4203ff, rgb(0, 255, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#mainContain > h2 {
+    color:aliceblue;
+
+    display: flex;
+    justify-content: center;
+}
+
+#containRate {
+    margin-bottom: 3em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 90vw;
+}
+
+.colorBox{
+    margin: 1em 0;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.colorBox:first-child{
+    background-color: goldenrod;
+}
+
+.colorBox:nth-child(2){
+    background-color: silver;
+}
+
+.colorBox:last-child{
+    background-color: brown;
+}
+
+.colorBox::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 130%;
+    background-color: aliceblue;
+    box-shadow: 0 0 20px rgb(8,8,8);
+    animation: animate 10s linear infinite;
+    top: -15%;
+    left: 25%;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ratePrice{
+    position: relative;
+    width: 20em;
+    height: 30em;
+    margin: 0.5em;
+    padding: 2em;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    
+    border-radius: 1em;
+}
+
+.ratePrice:hover{
+    transform: scale(1.10,1.10);
+    transition: 0.5s;
+}
+
+.ratePrice > h2{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.ratePrice > ul >li{
+    margin-top: 0.7em;
+}
+
+.ratePrice > p {
+    margin-top: 1em;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.listOption {
+    padding-left: 1em;
+}
+
+.listOption  ul {
+    list-style: none;
+    padding-left: 1.5em;
+}
+
+.listOption  ul li::before {
+    content: "- ";
+}
+
+.btn {
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 0.4em;
+}
+
+.btn-primary{
+    color: aliceblue;
+    background-color: #034fff;
+}
+

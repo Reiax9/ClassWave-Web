@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/90026717f8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/comon.css">
+    <link rel="shortcut icon" href="../img/ClassWaveManagment_Title.ico" type="image/x-icon">
+    <title>ClassWave</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <video id="videoFondo" autoplay loop muted>
+            <source src="../img/background.mp4" type="video/mp4">
+        </video>
+        <nav>
+            <a href="../index.html"><img src="../img/letras.png" class="logoClassWave" alt="Icono de ClassWave"></a>
+            <input type="checkbox" id="check">
+            <label for="check" id="labelMenu">
+                <i class="fas fa-bars " id="btn"></i>
+                <i class="fas fa-times" id="cancel"></i>
+            </label>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./service.html">Servicios</a></li>
+                <li><a href="./rate.html">Precios</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="mainContain">
+            <h1>CONTACTANOS</h1>
+            <h2>¿Necesitas alguna ayuda? Dejanos ayudar a resolver tus problemas.</h2>
+            <div id="contact">
+                <div id="info">
+                    <h2>Información de contacto</h2>
+                    <p>Rellena el siguiente formulario y nuestro equipo se contactará con usted dentro de 24h</p>
+                    <p><i class="fa-solid fa-phone"></i> +34 938 40 24 61</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Pl. Maluquer i Salvador, 19 08401 Granollers</p>
+                    <p><i class="fa-solid fa-envelope"></i> classwave@gmail.com</p>
+                    <div id="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4138.25891124214!2d2.288805760139261!3d41.61081959798811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7ce48393c31%3A0x382043552e5d43a2!2sC.%20Girona%2C%2050%2C%2008402%20Granollers%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1713438731602!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div id="contactForm">
+                    <form action="" method="post">
+                        <input type="text" placeholder="Nombre" id="name" name="name">
+                        <input type="text" placeholder="Apellidos" id="lastname" name="lastname">
+                        <input type="email" placeholder="Correo Electronico" id="email" name="email">
+                        <input type="tel" placeholder="Teléfono" name="telefono" id="telefono">
+                        <textarea name="comments" id="comments" placeholder="Introduce su mensaje..."></textarea>
+                        <button type="submit" id="btnEnviar">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="infoFooter">
+            <div id="aboutUs">
+                <h2>About Us</h2>
+                <p>Somos un grupo de estudiantes de ASIX2 con experiencia en Dockers e implementaciones de sistemas operativos. Con este proyecto intentamos expandir nuestros conocimientos y poder ayudar a los demás usuarios.</p>
+            </div>
+            <div id="contactUs">
+                <h2>Contact Us</h2>
+                <div class="apartados">
+                    <img class="iconoApartados" src="../img/ubicacion.png" alt="Icono de ubicacion">
+                    <p>Pl. Maluquer i Salvador, 19 08401 Granollers</p>
+                </div>
+                <div class="apartados">
+                    <img class="iconoApartados" src="../img/teelfono.png" alt="Icono de telefono">
+                    <p>Phone: +34 938 40 24 61</p>
+                </div>
+                <div class="apartados">
+                    <img class="iconoApartados" src="../img/email.png" alt="Icono de ubicacion">
+                    <p>Email: <a href="mailto:classwave@gmail.com">classwave@gmail.com</a></p>
+                </div>
+            </div>
+            <div id="redesSociales">
+                <h2>Social Media</h2>
+                <div id="iconosRedesSociales">
+                    <a href="https://instagram.com">
+                        <img class="iconoRedes" src="../img/instagram.png" alt="Icono de Instagram">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img class="iconoRedes" src="../img/twitter.png" alt="Icono de Twitter">
+                    </a>
+                    <a href="https://facebook.com">
+                        <img class="iconoRedes" src="../img/facebook.png" alt="Icono de facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="copyRight">Copyright &copy; ClassWave 2024 - All Right Reserved</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,170 @@
+/* #videoFondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+} */
+
+#presentacion {
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    color: aliceblue;
+}
+
+#presentacionImg > img{
+    width: 20em;
+}
+
+#presentacionText {
+    margin: 0 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 30em;
+}
+
+#presentacionText > h1 {
+    margin: 0.3em 0;
+    font-size: 4em;
+    font-weight: 800;
+
+}
+
+#inicio{
+    background-color: black;
+    color: rgb(204, 205, 205);
+
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.titulos{
+    margin: 0 1em;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+.titulos > h1{
+    margin: 0.3em 0;
+    font-size: 3em;
+    font-weight: 800;
+    background: -webkit-linear-gradient( #4203ff, rgb(0, 255, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulos > h2{
+    margin: 0.3em 0;
+    font-size: 2em;
+    background: -webkit-linear-gradient(45deg,  #4203ff, rgb(0, 255, 247) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#mainContain{
+    margin: 2em 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#mainContain p{
+    padding-bottom: 0.5em;
+}
+
+.miniContain {
+    margin: 1.5em 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 19em;
+}
+
+.miniContain > h3{
+    margin: 0.5em 0;
+    /* font-size: 1.5em; */
+}
+
+i {
+    padding-right: 0.6em;
+}
+
+#features {
+    background-color: #19222ccb;
+    padding-bottom: 3em;
+}
+
+
+#tecnologias {
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxTecno {
+    margin: 1em;
+    padding: 1em;
+    width: 15em;
+    height: 17em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(0,0,0,0.4);
+    color: aliceblue;
+    border-radius: 1em;
+    border: solid 1px white;
+}
+
+.boxTecno > img {
+    margin: 0.5em;
+    width: 100%;
+
+}
+
+.logo{
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.flexSize1{
+    flex: 1;
+}
+
+.flexSize2{
+    flex: 2;
+}
+
+.flexSize3{
+    flex: 3;
+}
+
+.centerFlexElement{
+    justify-content: center;
+    align-items: center;
+}

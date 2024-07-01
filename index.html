@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90026717f8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/comon.css">
+    <link rel="shortcut icon" href="./img/ClassWaveManagment_Title.ico" type="image/x-icon">
+    <title>ClassWave</title>
+</head>
+<body>
+    <header>
+    </header>
+    <nav>
+        <a href="./index.html"><img src="./img/letras.png" class="logoClassWave" alt="Icono de ClassWave"></a>
+        <input type="checkbox" id="check">
+        <label for="check" id="labelMenu">
+            <i class="fas fa-bars " id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./web/service.html">Servicios</a></li>
+            <li><a href="./web/rate.html">Precios</a></li>
+            <li><a href="./web/contact.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <video id="videoFondo" autoplay loop muted>
+            <source src="./img/background.mp4" type="video/mp4">
+        </video>
+        <div  id="presentacion">
+            <div id="presentacionImg">
+                <img src="./img/ola.png" alt="imagen ola">
+            </div>
+            <div id="presentacionText">
+                <h1>ClassWave</h1>
+                <p>Una plataforma/servicio web enfocada a entorno escolar. En ella, reunimos todas las herramientas y aplicaciones necesarias para el curso. Esto significa que los estudiantes pueden acceder a ellas desde cualquier ordenador, incluso si no es muy potente.</p>
+            </div>
+        </div>
+        <section id="inicio">
+            <div class="titulos">
+                <h1>Sistema en la nube</h1>
+                <h2>ClassWave no es un servicio como tal, si no una oportunidad</h2>
+            </div>
+            <div id="mainContain">
+                <div class="miniContain">
+                    <h3><i class="fa-solid fa-laptop-code"></i>Virtualización de Servidores</h3>
+                    <p>Empleamos tecnologías de virtualización para alojar múltiples servidores virtuales que ejecutan las aplicaciones necesarias.</p> 
+                    <p>Esto maximiza la eficiencia de los recursos al tiempo que garantiza un rendimiento óptimo para los usuarios finales.</p>
+                </div>
+                <div class="miniContain">
+                    <h3><i class="fa-solid fa-memory"></i>Optimización de Recursos</h3>
+                    <p> La plataforma realiza una asignación inteligente de recursos según la demanda, lo que permite maximizar la utilización de los servidores y reducir los costos operativos.</p>
+                </div>
+                <div class="miniContain">
+                    <h3><i class="fa-solid fa-desktop"></i>Acceso Remoto</h3>
+                    <p>Los usuarios pueden acceder a la plataforma desde cualquier lugar y en cualquier momento a través de una conexión a Internet, lo que brinda flexibilidad y accesibilidad a los recursos educativos.</p>
+                </div>
+                <div class="miniContain">
+                    <h3><i class="fa-solid fa-database"></i>Centralizacion de recursos</h3>
+                    <p>La plataforma actúa como un repositorio centralizado donde se almacenan y ejecutan todas las aplicaciones y herramientas requeridas para el curso.</p>
+                </div>
+                <div class="miniContain">
+                    <h3><i class="fa-solid fa-headset"></i>Soporte tecnico</h3>
+                    <p>Estamos en guarda 24h para ensolventar cualquier problema</p>
+                </div>
+            </div>
+        </section>
+        <section id="features">
+            <div class="titulos">
+                <h1>Nuestros Pilares Tecnológicos</h1>
+                <h2>Descubre las Tecnologías Esenciales que Impulsan ClassWave</h2>
+            </div>
+            <div id="tecnologias">
+                <div class="boxTecno flex column">
+                    <div class="flexSize1 flex centerFlexElement">
+                        <img class="logo" src="./img/dockerIcon.png" alt="Logo Docker">
+                    </div>
+                    <div class="flexSize1 flex centerFlexElement">
+                        <p>
+                            La tecnologia que nos permite tener un entorno estable y replicarlo facilmente, donde se ejecutaran las aplicaciones. 
+                        </p>
+                    </div>
+                </div>
+                <div class="boxTecno flex column">
+                    <div class="flexSize1 flex centerFlexElement">
+                        <img class="logo" src="./img/Proxmox.png" alt="Proxmox">
+                    </div>
+                    <div class="flexSize1  flex centerFlexElement">
+                        <p>
+                            Proxmox es un entorno donde se puede tener una escalabilidad y moldearlo a nuestras necesidades para una mayor comodidas para los usuario.
+                        </p>
+                    </div>
+                </div>
+                <div class="boxTecno flex column">
+                    <div class="flexSize1 flex centerFlexElement">
+                        <img class="logo" src="./img/mysql.png" alt="Logo MySQL">
+                    </div>
+                    <div class="flexSize1  flex centerFlexElement">
+                        <p>
+                            Nuestra base de datos gestiona nuestra configuración asegurando la integridad de los datos y privadidad de los usuarios.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="infoFooter">
+            <div id="aboutUs">
+                <h2>Sobre nosotros</h2>
+                <p>Somos un grupo de estudiantes de ASIX2 con experiencia en Dockers e implementaciones de sistemas operativos. Con este proyecto intentamos expandir nuestros conocimientos y poder ayudar a los demás usuarios.</p>
+            </div>
+            <div id="contactUs">
+                <h2>Contactanos</h2>
+                <div class="apartados">
+                    <img class="iconoApartados" src="./img/ubicacion.png" alt="Icono de ubicacion">
+                    <p>Pl. Maluquer i Salvador, 19 08401 Granollers</p>
+                </div>
+                <div class="apartados">
+                    <img class="iconoApartados" src="./img/teelfono.png" alt="Icono de telefono">
+                    <p>Telefono: +34 938 40 24 61</p>
+                </div>
+                <div class="apartados">
+                    <img class="iconoApartados" src="./img/email.png" alt="Icono de ubicacion">
+                    <p>Email: <a href="mailto:classwave@gmail.com">classwave@gmail.com</a></p>
+                </div>
+            </div>
+            <div id="redesSociales">
+                <h2>Redes Sociales</h2>
+                <div id="iconosRedesSociales">
+                    <a href="https://instagram.com">
+                        <img class="iconoRedes" src="./img/instagram.png" alt="Icono de Instagram">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img class="iconoRedes" src="./img/twitter.png" alt="Icono de Twitter">
+                    </a>
+                    <a href="https://facebook.com">
+                        <img class="iconoRedes" src="./img/facebook.png" alt="Icono de facebook">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="lineaSeparar"></div> -->
+        <div id="copyRight">Copyright &copy; ClassWave 2024 - All Right Reserved</div>
+    </footer>
+</body>
+</html>
