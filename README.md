@@ -15,12 +15,12 @@ Este repositorio contiene el código fuente de nuestra página web donde explica
 
 El proyecto ClassWave Management está dividido en dos repositorios:
 - **Este repositorio**: Código fuente de la página web.
-- [**Repositorio del sistema de gestión**](https://github.com/BRVallmi/Proyecto-Final-Servicio): Código fuente del sistema de login, panel de control y otras funcionalidades internas.
+- [**Repositorio del sistema de gestión**](https://github.com/Reiax9/ClassWave-Web): Código fuente del sistema de login, panel de control y otras funcionalidades internas.
 
 ## Instalación
 
 Para clonar y ejecutar este proyecto localmente:
 
 ```bash
-git clone https://github.com/BRVallmi/Proyecto-Final-Web
+git clone [https://github.com/BRVallmi/Proyecto-Final-Web](https://github.com/Reiax9/ClassWave-Web)
 cd Proyecto-Final-Web
